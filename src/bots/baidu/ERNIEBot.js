@@ -1,6 +1,7 @@
 import Bot from "@/bots/Bot";
 import axios from "axios";
 
+
 export default class ERNIEBot extends Bot {
   static _brandId = "ernie"; // ID of the bot, should be unique
   static _className = "ERNIEBot"; // Class name of the bot
